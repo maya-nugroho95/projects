@@ -1,0 +1,6 @@
+# projects — Maya Nugroho
+services:
+  app:
+    image: alpine:latest
+    command: ["echo", "up from maya-nugroho95"]
+    restart: unless-stopped
